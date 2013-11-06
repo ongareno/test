@@ -1,0 +1,139 @@
+<!--HTMLStart-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<base href="%base%" />
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+<body>
+<!--MessageIn-->
+	<div class="messageIn">
+		<div class="header">
+			%name% <span class="date">%time%</span>
+		</div>
+		<p>%text%</p>
+	</div>
+
+<!--MessageInGroupStart-->
+	<div class="messageInGroup">
+		<div class="header">
+			%name% <span class="date">%time%</span>
+		</div>
+		<p>%text%</p>
+
+<!--MessageInGroupInner-->
+		<div class="message">
+			<span class="date">%time%</span>
+			<p>%text%</p>
+		</div>
+
+<!--MessageInGroupEnd-->
+	</div>
+
+
+<!--hMessageIn-->
+	<div class="messageIn">
+		<div class="header">
+			%name% <span class="date">%time%</span>
+		</div>
+		<p>%text%</p>
+	</div>
+
+<!--hMessageInGroupStart-->
+	<div class="messageInGroup">
+		<div class="header">
+			%name% <span class="date">%time%</span>
+		</div>
+		<p>%text%</p>
+
+<!--hMessageInGroupInner-->
+		<div class="message">
+			<span class="date">%time%</span>
+			<p>%text%</p>
+		</div>
+
+<!--hMessageInGroupEnd-->
+	</div>
+
+
+<!--MessageOut-->
+	<div class="messageOut">
+		<div class="header">
+			%name% <span class="date">%time%</span>
+		</div>
+		<p>%text%</p>
+	</div>
+
+<!--MessageOutGroupStart-->
+	<div class="messageOutGroup">
+		<div class="header">
+			%name% <span class="date">%time%</span>
+		</div>
+		<p>%text%</p>
+
+<!--MessageOutGroupInner-->
+		<div class="message">
+			<span class="date">%time%</span>
+			<p>%text%</p>
+		</div>
+
+<!--MessageOutGroupEnd-->
+	</div>
+
+
+<!--hMessageOut-->
+	<div class="messageOut">
+		<div class="header">
+			%name% <span class="date">%time%</span>
+		</div>
+		<p>%text%</p>
+	</div>
+
+<!--hMessageOutGroupStart-->
+	<div class="messageOutGroup">
+		<div class="header">
+			%name% <span class="date">%time%</span>
+		</div>
+		<p>%text%</p>
+
+<!--hMessageOutGroupInner-->
+		<div class="message">
+			<span class="date">%time%</span>
+			<p>%text%</p>
+		</div>
+
+<!--hMessageOutGroupEnd-->
+	</div>
+
+
+<!--File-->
+	<div class="file">
+		<h6>File:</h6> %name%
+		<span class="date">%time%</span>
+		%text%
+	</div>
+
+<!--hFile-->
+	<div class="file">
+		<h6>File:</h6> %name%
+		<span class="date">%time%</span>
+		%text%
+	</div>
+
+
+<!--Status-->
+	<div class="status">
+		<h6>Status:</h6> %name%
+		<span class="date">%time%</span>
+		%text%
+	</div>
+
+<!--hStatus-->
+	<div class="status">
+		<h6>Status:</h6> %name%
+		<span class="date">%time%</span>
+		%text%
+	</div>

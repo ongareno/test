@@ -1,0 +1,78 @@
+PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND...
+ONLY MORAL SUPPORT IN SPECIAL CASES CAN BE PROVIDED 8-)
+
+
+3.1.3.6
+[*] changed data load order for faster loading. now really faster!
+[+] remember last selected setting position.
+
+
+3.1.3.5 (internal)
+
+
+3.1.3.4
+[-] fixed unicode OS detection, now works on win9x (patch by Martin Afanasjev aka SloMo)
+[-] fixed position restore after sorting and tree refresh in Settings
+[*] workaround to speedup position restore on refreshing
+[+] added ability to open DBE on user's settings from user's menu
+[+] added toptoolbar button
+
+
+3.1.3.3
+[-] memory leak in tree (thanx George Hazan)
+[-] something else :)
+
+
+3.1.3.2
+[+] now shows contact's handles (hcontact)
+[-] crash after clearing watch list
+[-] unicode nicks in watch window
+[-] more stability fixes
+
+
+3.1.3.1
+[+] ability to set hex edit mode per type
+[+] ability to set sort order by protocol also
+[+] progress indicator in title during contact loading
+
+
+3.1.3.0
+[+] ability to delete setting by 'Key=-' during import
+[+] full BLOB support (create, edit, import, export)
+[+] support for Updater (beta version only)
+[*] file import optimizations
+
+
+3.1.2.5
+[+] CTRL+F for search dlg
+[+] option & ability to restore last opened position
+[*] some internal optimizations & workarounds
+
+
+3.1.2.4
+[+] some operations with BLOBs
+[+] search & replace works for modules!
+[*] code cleanup
+
+
+3.1.2.3
+[+] unicode in Copy module
+[+] show found values in search
+[+] ability to import multiple files at once
+[+] when exporting module default filename is set as module
+[+] new search & replace dlg
+[+] ability to delete by replace
+[-] some multi-threading issues
+
+
+3.1.2.2
+[-] fixed unicode nicks as contact names in tree
+[+] ability to edit numeric values in hex
+[+] ability to show only loaded/unloaded proto contacts
+[*] also something was improved :)
+
+
+3.1.2.0
+[+] unicode DB support (db3x 13 Sep built or later needed)
+[+] full unicode editing on NT systems (limited on others - in utf8)
+[+] unicode export/import

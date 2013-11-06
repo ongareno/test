@@ -1,0 +1,40 @@
+html, body, div, p { margin: 0; padding: 0; color: #c0c0c0;}
+html { scrollbar-3dlight-color: #2F2F2F; scrollbar-arrow-color: #808080; scrollbar-darkshadow-color: #2F2F2F; scrollbar-face-color: #2F2F2F; scrollbar-highlight-color: #585858; scrollbar-shadow-color: #2F2F2F;} 
+body {font-family: Tahoma,Geneva,Kalimati,sans-serif; font-size: 11px;background-color: #2f2f2f; overflow: auto; margin: 0px;overflow: hidden;overflow-x: hidden;}
+div {	
+width: auto;
+word-wrap: break-word;
+}
+
+.messageInGroup, .messageIn, .messageOutGroup, .messageOut, .status, .file { padding: 5px 0px; position: relative; border-bottom: 1px solid #646464; }
+
+.message { margin: 2px 0 0 0; padding: 2px 0 0 0; border-top: 1px dotted #5B5B5B; }
+
+.messageOutGroup, .messageOut { background: #383838;}
+.messageOutGroup .header, .messageOut .header { color: #d2d2d2; font-weight: bold;}
+
+
+.messageInGroup, .messageIn { background: #404040; }
+.messageInGroup .header, .messageIn .header { color: #FFCC00; font-weight: bold;}
+
+
+
+.header .date, .file .date, .status .date { position: absolute; right: 10px; font-size: 10px; color: #808080; font-weight: normal;}
+.message .date { padding: 0 10px 0 5px; float: right; font-size: 10px; color: #808080; }
+
+.file { background: #414141; }
+.file h6, .file .date {  }
+
+.status { background: #414141; }
+.status h6, .status .date {  }
+
+.header { padding: 0 0 8px 10px; }
+
+p { padding: 0 10px; }
+
+.message p { padding: 0 0 0 10px; position: relative; }
+
+h6 { padding: 0 5px 0 10px; display: inline; font-size: 11px; font-weight: normal; }
+
+a, a:visited  { color: #1c8ee6; text-decoration:none; }
+a:hover, a:active { text-decoration: underline; }

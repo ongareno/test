@@ -1,0 +1,156 @@
+w 10+((icon.width+4+title.width+4+clock.width)>text.width)+8+avatar.width+10
+h (5+(icon.height>title.height)+4+text.height+10)>(avatar.height+5+5)
+
+#sidebar
+
+object 
+	type bitmap
+	source sidebar_top.png
+	x window.width-4-avatar.width-5
+	y 0
+	w 4+avatar.width
+	h 12
+end
+
+object 
+	type bitmap
+	source sidebar_bg.png
+	x window.width-4-avatar.width-5
+	y 12
+	w 4+avatar.width
+	h window.height-12-12
+end
+
+object 
+	type bitmap
+	source sidebar_bottom.png
+	x window.width-4-avatar.width-5
+	y window.height-12
+	w 4+avatar.width
+	h 12
+end
+
+
+# Left
+object 
+	type bitmap
+	source top_left.png
+	x 0
+	y 0
+end
+
+object
+	type bitmap
+	source left.png
+	x 0
+	y 12
+	h window.height-12-12
+end
+
+object 
+	type bitmap
+	source bottom_left.png
+	x 0
+	y window.height-12
+end
+
+#Right
+
+object 
+	type bitmap
+	source top_right.png
+	x window.width-12
+	y 0
+end
+
+object
+	type bitmap
+	source right.png
+	x window.width-12
+	y 12
+	h window.height-12-12
+end
+
+object
+	type bitmap
+	source bottom_right.png
+	x window.width-12
+	y window.height-12
+end
+
+#Left Side
+object 
+	type bitmap
+	source top_left_side.png
+	x 12
+	y 0
+	w window.width-12-4-avatar.width-5
+end
+
+object 
+	type bitmap
+	source back.png
+	x 12
+	y 12
+	w window.width-12-4-avatar.width-5
+	h window.height-12-12
+end
+
+object  
+	type bitmap
+	source bottom_left_side.png
+	x 12
+	y window.height-12
+	w window.width-12-4-avatar.width-5
+end
+
+# icon
+object 
+	ifset 3
+	type icon
+	x 10
+	y 10+(title.height-icon.height)/2
+end
+
+# clock
+object
+	ifset 2
+	type clock
+	source clock.png
+	mono
+	clocksize 1 3 6 5 5 6 6 6 6 6 6 6 6 0 0 1
+	#x icon.width+4+title.width+4
+	x window.width-5-(avatar.width>0)-5-4-clock.width
+	y 10+(title.height-icon.height)/2+2
+end
+
+#avatar
+object
+	ifset 1
+	type avatar
+	x window.width-avatar.width-5
+	y 5
+	w options.avatarsize
+	proportional 1
+end
+
+#titlebar text
+object
+	type title
+	color 255 148 0
+	x 10+icon.width+4
+	y 10
+	w window.width-(10+icon.width+4)-4-1-4-avatar.width-10
+end
+
+# text area
+object
+	type text
+	color 192 192 192
+	x 10+4
+	y 10+title.height+4
+	w window.width-10-4-1-4-avatar.width-10
+end
+
+
+
